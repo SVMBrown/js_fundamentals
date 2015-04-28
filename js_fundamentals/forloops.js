@@ -29,8 +29,8 @@ for (var i = 1; i <= 10; i++) {
   }
   console.log(line);
 }
-var gradeBottoms = [95,   87,   80,   77,   73,   70,   67,   63,   60,   57,   53,   50,   0]
-var letterGrades = ["A+", "A",  "A-", "B+", "B",  "B-", "C+", "C",  "C-", "D+", "D",  "D-", "R"]
+var gradeBottoms = [95,   87,   80,   77,   73,   70,   67,   63,   60,   57,   53,   50,   0];
+var letterGrades = ["A+", "A",  "A-", "B+", "B",  "B-", "C+", "C",  "C-", "D+", "D",  "D-", "R"];
 function assignGrade(n) {
   var index = 0;
   for(index = 0; n < gradeBottoms[index]; index++);
